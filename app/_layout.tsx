@@ -32,7 +32,7 @@ export default function Layout() {
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack initialRouteName="home" />
+      <Stack />
     </ThemeProvider>
   );
 }
